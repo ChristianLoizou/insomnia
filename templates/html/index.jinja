@@ -11,10 +11,16 @@
             {{ date_time }}
         </div>
         <div class='icon'>
-            <div class='mountain-background-bubble' alt="mountain">
-                <div class='mountain large-mountain'></div>
-                <div class='mountain small-mountain'></div>
+            <div class='mountain-background-bubble' style="background: {{ logo_bubble_back }};">
+                <div class='mountain large-mountain' style="background: {{ mountain_back }}"></div>
+                <div class='mountain small-mountain' style="background: {{ mountain_back }}"></div>
             </div>
+        </div>
+        <br/>
+        <div class="nav">
+            {% for (project_name, route) in projects.items() %}
+                <a class="nav" href={{ route }}> {{ project_name }} </a>
+            {% endfor %}
         </div>
         <br/>
     </body>
