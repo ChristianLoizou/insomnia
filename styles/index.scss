@@ -7,8 +7,8 @@
 
 body {
     background: linear-gradient(90deg, rgba(5,2,48,1) 0%, rgba(50,36,164,1) 25%, rgba(3,152,182,1) 100%);
-    
     color: #dddddd;
+    position: relative;
 }
 
 .header {
@@ -24,11 +24,10 @@ body {
     width: 100px;
     height: 100px;
     border-radius: 100px;
-    background: #FFF1C1;
     overflow: hidden;
 }
 .mountain {
-    background:#FE5F55;
+
     transform: rotate(45deg);
 }
 
@@ -46,3 +45,20 @@ body {
     width: 75px;
     height: 75px;
 } 
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
+    margin: 30px 0 0 30px;
+    padding: 10px 5px;
+    text-decoration: none;
+    display: inline-block;
+    outline: 1px solid #ffffff;
+}
