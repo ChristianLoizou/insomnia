@@ -25,12 +25,11 @@ app = Flask(__name__)
 
 
 @app.route('/')
-@app.route('/<name>')
-def index(name=None):
-    return Template('index').render(name=name)
+def index():
+    return Template('index').render()
 
 
-@lru_cache()
+@lru_cache()  # this line caches .css files, so if one file is used twice the script doesn't have to load it twice
 def load_css(stylesheet_name):
     return css[stylesheet_name]
 
