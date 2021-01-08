@@ -1,13 +1,20 @@
-@mixin flexCenter {
+@mixin flexAlign($align, $just, $float) {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: $align;
+    justify-content: $just;
+    float: $float;
 }
 
 body {
     background: linear-gradient(90deg, rgba(5,2,48,1) 0%, rgba(50,36,164,1) 25%, rgba(3,152,182,1) 100%);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
     color: #dddddd;
+}
+
+.header {
+    @include flexAlign(center, center, right);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
 }
 
 .mountain-background-bubble {
