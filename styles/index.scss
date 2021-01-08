@@ -1,0 +1,35 @@
+body {
+    background: linear-gradient(90deg, rgba(5,2,48,1) 0%, rgba(50,36,164,1) 25%, rgba(3,152,182,1) 100%);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #dddddd;
+}
+
+.mountain-background-bubble {
+    position: relative;
+    left: 100px;
+    top: 50px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: #FFF1C1;
+    overflow: hidden;
+}
+.mountain {
+    background:#FE5F55;
+    transform: rotate(45deg);
+}
+
+.large-mountain {
+    position: absolute;
+    width: 80px;
+    height: 50px;
+    top: 150px;
+}
+
+.small-mountain {
+    position: absolute;
+    left: 67px;
+    top: 90px;
+    width: 150px;
+    height: 150px;
+} 
