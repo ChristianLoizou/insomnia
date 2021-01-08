@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,IAAI,CAAC;EACD,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;CACZ;;AAED,AAAA,CAAC,CAAC;EACE,KAAK,EAAE,OAAO;EACd,WAAW,EAAE,4BAA4B;EACzC,eAAe,EAAE,IAAI;EACrB,MAAM,EAAE,SAAS;CAEpB",
+    "sources": [
+        "p5js_sketch.scss"
+    ],
+    "names": [],
+    "file": "p5js_sketch.css"
+}
