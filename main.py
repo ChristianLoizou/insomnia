@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import os
+from datetime import datetime
 from functools import lru_cache
 
 from flask import Flask, render_template
@@ -26,7 +27,9 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return Template('index').render()
+    current_time = datetime.now().strftime("%H:%M\t%A, %b %-d")
+    # do other stuff here...
+    return Template('index').render(date_time=current_time)
 
 
 @lru_cache()  # this line caches .css files, so if one file is used twice the script doesn't have to load it twice
