@@ -1,2 +1,2 @@
-/static/addons/* linguist-vendored
-/static/addons/* linguist-detectable
+static/addons/* linguist-vendored
+static/addons/* linguist-detectable
