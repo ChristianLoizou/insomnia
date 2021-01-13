@@ -18,16 +18,18 @@ _It's the 'Jack of all trades'_ of coding projects.
 _All code in this repo was written by Christian A Loizou._
 
 ---
-Languages currently in use in _*insomnia*_:
+Languages / libraries currently in use in _*insomnia*_:
 * Python3
 * HTML - using Jinja2
 * CSS3 - using SASS / SCSS
 * P5.JS / Javascript
 
-Languages to come?:
+Languages / libraries to come?:
+* Bootstrap
 * JQuery?
 * SQL?
 * Any others I can think of implementing...
+
 
 # Things being implemented now
 * Working on a P5 sketch which is updated via python script (for {I5}) {I4}
