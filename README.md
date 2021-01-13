@@ -30,8 +30,12 @@ Languages to come?:
 * Any others I can think of implementing...
 
 # Things being implemented now
-* Project selection panel
+* Working on a P5 sketch which is updated via python script (for {I5}) {I4}
+
+# Things already implemented
+* Project selection panel {I3}
 
 # Things to implement later
-* P5.js implementation of chess with game engine run by python??
+* P5.js implementation of chess with game engine run by python?? {I5}
 * and more...
+* 
