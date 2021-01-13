@@ -6,20 +6,21 @@
         <meta http-equiv="refresh" content="10">
         <title> insomnia </title>
     </head>
-    <body>
-        <div class='header'>
-            {{ date_time }}
+    <body> 
+        <div class="header"> 
+            {# <div class="title"> insomnia </div> #}
+            <div class="datetime"> {{ date_time }} </div>
         </div>
-        <div class='icon'>
-            <div class='mountain-background-bubble' style="background: {{ logo_bubble_back }};">
-                <div class='mountain large-mountain' style="background: {{ mountain_back }}"></div>
-                <div class='mountain small-mountain' style="background: {{ mountain_back }}"></div>
+        <div class="icon">
+            <div class="mountain-background-bubble" style="background: {{ logo_bubble_back }};">
+                <div class="mountain large-mountain" style="background: {{ mountain_back }}"></div>
+                <div class="mountain small-mountain" style="background: {{ mountain_back }}"></div>
             </div>
         </div>
         <br/>
         <div class="nav">
             {% for (project_name, route) in projects.items() %}
-                <a class="nav" href={{ route }}> {{ project_name }} </a>
+                <a class="navlink" href={{ route }}> {{ project_name }} </a>
             {% endfor %}
         </div>
         <br/>
