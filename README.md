@@ -38,6 +38,6 @@ Languages / libraries to come?:
 * Project selection panel {I3}
 
 # Things to implement later
-* P5.js implementation of chess with game engine run by python?? {I5}
+* P5.js implementation of chess with game engine run by python? {I5}
 * and more...
 * 
