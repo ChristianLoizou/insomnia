@@ -16,8 +16,9 @@ Other libraries / languages also used
 _It's the 'Jack of all trades'_ of coding projects. 
 
 _All code in this repo was written by Christian A Loizou._
-
 I log the chronological order in which I implement my ideas with 'I- numbers'. Next to anything I'm working on / have already completed there will be an I-number.
+
+
 ---
 Languages / libraries currently in use in _*insomnia*_:
 * Python3
